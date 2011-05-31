@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.php
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine    on
+	# If clean urls are not working - change the forward-slash below to the directory of your blog - like /blog or /dot
+	RewriteBase /blog
+	RewriteCond        %{REQUEST_FILENAME} !-s
+
+	RewriteRule        ^(p/)([0-9]+)?$         index.php?post=$2        [L]
+	RewriteRule        ^(s/)([*]+)?$           index.php?q=$2        [L]
+</IfModule>

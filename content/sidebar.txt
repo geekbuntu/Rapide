@@ -1,0 +1,1 @@
+<form action="index.php" method="get">	<input name="q" />	<input type="submit" value="Search" /></form><p>Go to your Admin Panel (<a href="admin">/admin</a>) and edit your sidebar. You can put any HTML you want in it, but not PHP (yet)</p>

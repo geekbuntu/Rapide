@@ -1,0 +1,141 @@
+body {
+	background-color: #f5f5f5;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #555;
+	font-family: Helvetica, Arial, Geneva, sans-serif; 
+}
+#wrapper {
+	margin-top: 30px;
+	text-align: left;
+}
+
+/* Dimensions and Boxes */
+#container {
+	background-color: white;
+	padding: 10px;
+	float: right;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #aaa;
+}
+#content {
+	width: 72%;
+	float: left;
+}
+nav {
+	width: 24%;
+	float: right;
+	padding: 10px;
+}
+img {
+padding: 2px;
+}
+
+/* Typography */
+h1 {
+	font-weight: normal; 
+	line-height: 22px; 
+	font-size: 28px;
+	text-shadow: 1px 0px #f5f5f5;
+}
+h4 {
+	marign-bottom: -10px;
+}
+
+/* Header */
+header {
+	padding: 7px;
+	margin-top: -7px;
+	text-align: left;
+}
+header h1 {
+	font-weight: bold;
+}
+header h2 {
+	margin-top: -43px;
+	float: right;
+}
+
+/* Article Related */
+article {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+article h1 a{
+	color: #727272 !important;
+	padding: 4px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	text-shadow:0px 0px 5px transparent;
+}
+article h1 a:hover {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-shadow:0px 0px 5px #fff;
+	background-color: white;
+}
+#timestamp {
+	color: #727272;
+	float: right;
+	font-style: italic;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.twitter-share-button {
+	margin-left: 10px;
+	position: absolute;
+}
+#meta {
+	padding: 2px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 4px #ccc;
+	-webkit-box-shadow: 0px 0px 4px #ccc;
+	-moz-box-shadow: 0px 0px 4px #ccc;
+}
+#pag {
+	border: none !important;
+	font-weight: bold;
+}
+#posts {
+	margin-top: -20px;
+}
+
+/* Social */
+#social {
+text-align: center;
+}
+#social a, #social a:visited, #social a:hover, #social a:focus, #social a:active {
+	color: none; padding: 5px;
+}
+/* Other */
+code {
+	font-family: 'Monospace', Courier, Arial;
+}
+a, a:visited {
+	border: none;
+	color: #36c;
+	text-decoration: none;
+}
+a:hover {
+	color: #14a;
+	text-decoration: none;
+}
+a:focus,a:active{
+	position:relative;
+	top:2px;
+}
+nav ul, nav h3, footer {
+	display: none;
+}
